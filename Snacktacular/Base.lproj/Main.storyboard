@@ -115,15 +115,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGG-n5-2lA">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YKe-qp-5d6"/>
+                                    <barButtonItem title="Lookup Place" id="dFe-qs-DQw">
+                                        <connections>
+                                            <action selector="lookupButtonPressed:" destination="0cQ-MY-ebL" id="4SV-OR-OXY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="qGG-n5-2lA" firstAttribute="trailing" secondItem="tDy-ea-98a" secondAttribute="trailing" id="7YX-6e-IDo"/>
                             <constraint firstItem="2hY-hd-xnb" firstAttribute="top" secondItem="hoD-Ls-Jml" secondAttribute="bottom" constant="3" id="COJ-Ad-dfr"/>
                             <constraint firstItem="hoD-Ls-Jml" firstAttribute="leading" secondItem="tDy-ea-98a" secondAttribute="leading" constant="22" id="GJB-yB-cMV"/>
                             <constraint firstItem="2hY-hd-xnb" firstAttribute="leading" secondItem="n9w-FY-TgJ" secondAttribute="leadingMargin" id="JCU-aD-TqG"/>
                             <constraint firstItem="2hY-hd-xnb" firstAttribute="leading" secondItem="KEg-Ye-i4d" secondAttribute="leading" id="Jjt-rc-kdy"/>
+                            <constraint firstItem="qGG-n5-2lA" firstAttribute="bottom" secondItem="tDy-ea-98a" secondAttribute="bottom" id="OCV-e7-UqX"/>
                             <constraint firstItem="hoD-Ls-Jml" firstAttribute="top" secondItem="tDy-ea-98a" secondAttribute="top" constant="27" id="Q0G-R2-Lav"/>
                             <constraint firstItem="hoD-Ls-Jml" firstAttribute="leading" secondItem="OWg-uU-uRL" secondAttribute="leading" id="eWY-X5-Vpv"/>
+                            <constraint firstItem="qGG-n5-2lA" firstAttribute="leading" secondItem="tDy-ea-98a" secondAttribute="leading" id="h24-S8-ouG"/>
                             <constraint firstItem="OWg-uU-uRL" firstAttribute="top" secondItem="2hY-hd-xnb" secondAttribute="bottom" constant="21" id="pxZ-lc-2Jl"/>
                             <constraint firstItem="2hY-hd-xnb" firstAttribute="trailing" secondItem="KEg-Ye-i4d" secondAttribute="trailing" id="t0k-mf-ehL"/>
                             <constraint firstItem="2hY-hd-xnb" firstAttribute="trailing" secondItem="n9w-FY-TgJ" secondAttribute="trailingMargin" id="tBp-yf-UOQ"/>
