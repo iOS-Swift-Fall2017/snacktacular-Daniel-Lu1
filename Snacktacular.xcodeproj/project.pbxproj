@@ -11,7 +11,7 @@
 		3EEEE27E1FC61A3000D5F069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EEEE27C1FC61A3000D5F069 /* Main.storyboard */; };
 		3EEEE2801FC61A3000D5F069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EEEE27F1FC61A3000D5F069 /* Assets.xcassets */; };
 		3EEEE2831FC61A3000D5F069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EEEE2811FC61A3000D5F069 /* LaunchScreen.storyboard */; };
-		3EEEE28B1FC61A4900D5F069 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEE28A1FC61A4900D5F069 /* Places.swift */; };
+		3EEEE28B1FC61A4900D5F069 /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEE28A1FC61A4900D5F069 /* PlaceData.swift */; };
 		3EEEE28D1FC61AFF00D5F069 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEE28C1FC61AFF00D5F069 /* PlaceListViewController.swift */; };
 		3EEEE28F1FC6205300D5F069 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEE28E1FC6205300D5F069 /* DetailViewController.swift */; };
 		3EEEE2B11FC632AC00D5F069 /* UINavigationController+preferredStgatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEE2B01FC632AC00D5F069 /* UINavigationController+preferredStgatusBarStyle.swift */; };
@@ -24,7 +24,7 @@
 		3EEEE27F1FC61A3000D5F069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EEEE2821FC61A3000D5F069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EEEE2841FC61A3000D5F069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EEEE28A1FC61A4900D5F069 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		3EEEE28A1FC61A4900D5F069 /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
 		3EEEE28C1FC61AFF00D5F069 /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
 		3EEEE28E1FC6205300D5F069 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3EEEE2B01FC632AC00D5F069 /* UINavigationController+preferredStgatusBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+preferredStgatusBarStyle.swift"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				3EEEE2781FC61A3000D5F069 /* AppDelegate.swift */,
-				3EEEE28A1FC61A4900D5F069 /* Places.swift */,
+				3EEEE28A1FC61A4900D5F069 /* PlaceData.swift */,
 				3EEEE28C1FC61AFF00D5F069 /* PlaceListViewController.swift */,
 				3EEEE28E1FC6205300D5F069 /* DetailViewController.swift */,
 				3EEEE27C1FC61A3000D5F069 /* Main.storyboard */,
@@ -148,7 +148,7 @@
 				3EEEE2B11FC632AC00D5F069 /* UINavigationController+preferredStgatusBarStyle.swift in Sources */,
 				3EEEE28D1FC61AFF00D5F069 /* PlaceListViewController.swift in Sources */,
 				3EEEE2791FC61A3000D5F069 /* AppDelegate.swift in Sources */,
-				3EEEE28B1FC61A4900D5F069 /* Places.swift in Sources */,
+				3EEEE28B1FC61A4900D5F069 /* PlaceData.swift in Sources */,
 				3EEEE28F1FC6205300D5F069 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

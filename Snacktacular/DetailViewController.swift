@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var placeNameLabel: UITextField!
     @IBOutlet weak var addressLabel: UITextField!
     
-    var placeData: Places.PlaceData?
+    var placeData: PlaceData?
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -27,10 +27,8 @@ class DetailViewController: UIViewController {
             placeNameLabel.text = placeData.placeName
             addressLabel.text = placeData.address
         } else {
-            placeData = Places.PlaceData(placeName: "", address: "", coordinates: CLLocation(), postingUserID: "")
+            placeData = PlaceData(placeName: "", address: "", postingUserID: "", coordinate: CLLocationCoordinate2D())
         }
-        
-        placeNameLabel.becomeFirstResponder()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
